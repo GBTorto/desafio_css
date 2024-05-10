@@ -1,0 +1,127 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+}
+
+.linha{
+    position: relative;
+    width: 400px;
+    height: 5px;
+}
+
+.linha::before, .linha::after{content: "";
+    position: absolute;
+    top: 30px;
+    width: 400px;
+    height: 7px;
+    border: 1px solid;
+    background-color: #000000;
+}
+.linha::after{
+    top:  -140px;
+    right: 170px;
+    transform: rotate(90deg);
+}
+
+.seta{
+    position: relative;
+    top: 24px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 21px solid #000000;
+    transform: rotate(90deg);
+}
+
+.seta2{
+    position: relative;
+    bottom: 357px;
+    right: 407px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 21px solid #000000;
+}
+
+.marcacao1{
+    position: relative;
+    right: 635px;
+    bottom: 36px;
+    width: 15px;
+    height: 2px;
+    border: 1px solid;
+    background-color: #000000;
+}
+
+.marcacao2{
+    position: relative;
+    right: 652px;
+    bottom: 110px;
+    width: 15px;
+    height: 2px;
+    border: 1px solid;
+    background-color: #000000;
+}
+
+.marcacao3{
+    position: relative;
+    right: 669px;
+    bottom: 184px;
+    width: 15px;
+    height: 2px;
+    border: 1px solid;
+    background-color: #000000;
+}
+
+.marcacao4{
+    position: relative;
+    right: 686px;
+    bottom: 258px;
+    width: 15px;
+    height: 2px;
+    border: 1px solid;
+    background-color: #000000;
+}
+
+.barra1{
+    position: relative;
+    right: 380px;
+    bottom: 251px;
+    width: 50px;
+    height: 280px;
+    border: 1px solid;
+    background-color: blue;
+}
+
+.barra2{
+    position: relative;
+    right: 340px;
+    bottom: 150px;
+    width: 50px;
+    height: 179px;
+    border: 1px solid;
+    background-color: yellow;
+}
+
+.barra3{
+    position: relative;
+    right: 310px;
+    bottom: 30px;
+    width: 50px;
+    height: 59px;
+    border: 1px solid;
+    background-color: red;
+}
+
+.barra4{
+    position: relative;
+    right: 280px;
+    bottom: 290px;
+    width: 50px;
+    height: 319px;
+    border: 1px solid;
+    background-color: green;
+}

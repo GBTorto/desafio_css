@@ -1,0 +1,45 @@
+header{
+    position: absolute;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 25vh;
+    padding-top: 2.5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.estilizacao{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.grafico, .musica, .padrao_decorativo, .robo, .carro{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    top: 27vh;
+    left: 42.5%;
+    width: 130px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.grafico, .musica, .padrao_decorativo, .robo, .carro, a{
+    text-decoration: none;
+    color: black;
+}
+
+.grafico:hover, .musica:hover, .padrao_decorativo:hover, .robo:hover, .carro:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 3px rgb(93, 93, 202);
+    border-color: rgb(93, 93, 202);
+    color: rgb(93, 93, 202);
+}
